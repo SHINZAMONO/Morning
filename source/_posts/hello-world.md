@@ -1,6 +1,8 @@
 ---
 title: Hello World
 date: 2021-04-04T13:24:02.918Z
+top_img: https://cdn.jsdelivr.net/gh/SHINZAMONO/Image_Host_Morning/img/hello.jpg
+cover: https://cdn.jsdelivr.net/gh/SHINZAMONO/Image_Host_Morning/img/hello.jpg
 ---
 
 # hexo-netlify-cms-vercel
