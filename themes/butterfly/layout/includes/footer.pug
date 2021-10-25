@@ -3,9 +3,9 @@
     - var now = new Date()
     - var nowYear = now.getFullYear()
     if theme.footer.owner.since && theme.footer.owner.since != nowYear
-      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear + ' '} RSQ <i id="heartbeat" class="fa fas fa-heartbeat"></i> HRZ`
+      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear + ' '} RSQ  <i id="heartbeat" class="fa fas fa-heartbeat"></i> HRZ`
     else
-      .copyright!= `&copy;${nowYear + ' '} RSQ <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author} HRZ`
+      .copyright!= `&copy;${nowYear + ' '} RSQ  <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author} HRZ`
   if theme.footer.copyright
     .framework-info
       span= _p('footer.framework') + ' '
